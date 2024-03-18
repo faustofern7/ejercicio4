@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 body{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 main{
     flex-grow: 1;
 }
+
+.rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .reflejoBtn{
+    -webkit-box-reflect: below 4px linear-gradient(transparent, #0005);
+  }
